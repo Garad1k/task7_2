@@ -40,5 +40,5 @@ def main(arr=None):
             max_str = el
 
     substr = "" if max_idx == -1 else get_substring(max_str)
-    print(f"{max_idx}; {substr!r}")
+    print(f"{max_idx}, {substr!r}")
     return max_idx, substr
